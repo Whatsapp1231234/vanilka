@@ -10,7 +10,7 @@ handler.before = async function (m, {conn, isAdmin, isBotAdmin, isOwner} ) {
 
     for (let prefix of forbidPrefixes) {
       if (m.sender.startsWith(prefix)) {
-        m.reply('✳️ Индусам тут делать нехер!!!', m.sender)
+        m.reply('✳️ Группа создана для Русских номеров!!!', m.sender)
         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
         return false;
       }

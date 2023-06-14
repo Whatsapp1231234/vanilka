@@ -4,7 +4,7 @@ export function before(m) {
     let user = global.db.data.users[m.sender]
     if (user.afk > -1) {
         m.reply(`
-  ✅ Dejaste de estar AFK 
+  ✅ Ты перестал быть АФК 
 ${user.afkReason ? ' \n▢ *Razón :* ' + user.afkReason : ''}
 ▢ *AFK Durante :* ${(new Date - user.afk).toTimeString()}
   `.trim())
