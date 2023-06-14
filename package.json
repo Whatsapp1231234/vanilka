@@ -1,5 +1,5 @@
 { 
-    "name": "ZloiBoT2",
+    "name": "vanilka",
     "version": "2.2.2",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Whats-bot/zloi2",
+    "homepage": "https://github.com/Whatsapp1231234/vanilka",
     "author": {
-        "name": "FG98"
+        "name": "vanilka"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Whats-bot/zloi2"
+        "url": "git+https://github.com/Whatsapp1231234/vanilka"
     },
     "bugs": {
-        "url": "https://github.com/Whats-bot/zloi2/issues"
+        "url": "https://github.com/Whatsapp1231234/vanilka"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
