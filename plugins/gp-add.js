@@ -52,6 +52,7 @@ handler.tags = ['group']
 handler.command = ['добавить']
 handler.admin = true
 handler.group = true
+handler.rowner = true
 handler.botAdmin = true
 
 export default handler

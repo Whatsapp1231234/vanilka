@@ -5,11 +5,11 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['79524197466', 'ZloiAdmiN', true],
   ['79524197466'], 
-  ['77072763560'] 
+  ['795241974666'] 
 ] //Numeros de owner 
 
-global.mods = ['77072763560'] 
-global.prems = ['77072763560']
+global.mods = ['79524197466'] 
+global.prems = ['79524197466']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -25,16 +25,16 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'VaNiLkA' 
+global.packname = 'DyLux┃ᴮᴼᵀ' 
 global.author = '@fg98' 
-global.fgig = '▢ https://chat.whatsapp.com/FoDRpFvrXfY2M9RufqAGCq\n' 
-global.dygp = 'https://chat.whatsapp.com/FoDRpFvrXfY2M9RufqAGCq'
-global.fgsc = 'https://chat.whatsapp.com/FoDRpFvrXfY2M9RufqAGCq' 
-global.fgyt = 'https://chat.whatsapp.com/FoDRpFvrXfY2M9RufqAGCq'
-global.fgpyp = 'https://chat.whatsapp.com/FoDRpFvrXfY2M9RufqAGCq'
+global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
+global.dygp = 'https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU'
+global.fgsc = 'https://github.com/FG98F/dylux-fg' 
+global.fgyt = 'https://youtube.com/fg98f'
+global.fgpyp = 'https://paypal.me/fg98f'
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
-global.wait = '*⌛ _Загрузка..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'

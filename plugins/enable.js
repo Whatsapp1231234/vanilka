@@ -18,7 +18,8 @@ const sections = [
 	{title: "📑 | Документ", rowId: `${usedPrefix + command} документ`},
 	{title: "🛡️ | Ботадмин", rowId: `${usedPrefix + command} ботадмин`},
 	{title: "💬 | OnlyPv", rowId: `${usedPrefix + command} onlydm`},
-	{title: "👥 | OnlyGp", rowId: `${usedPrefix + command} onlygp`}
+	{title: "👥 | OnlyGp", rowId: `${usedPrefix + command} onlygp`},
+  {title: "🔗 | АНТИССЫЛКА 2",  rowId: `${usedPrefix + command} антиссылка2`},
 	]
     },
 ]
@@ -105,6 +106,15 @@ const listMessage = {
       }
       chat.antiLink = isEnable
       break
+
+      case 'антиссылка2':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink2 = isEnable          
+break
       
       case 'антиараб':
       case 'sololatino':
@@ -118,6 +128,7 @@ const listMessage = {
           throw false
         }
       }
+      
       chat.onlyLatinos = isEnable
       break
       
@@ -212,7 +223,7 @@ m.reply(`
 
 }
 handler.help = ['вкл', 'выкл'].map(v => v + 'ючить <опция>')
-handler.tags = ['ючить']
+handler.tags = ['Опции']
 handler.command = /^((en|dis)able|(вкл|выкл)ючить|(turn)?o(n|ff)|[01])$/i
 
 export default handler
