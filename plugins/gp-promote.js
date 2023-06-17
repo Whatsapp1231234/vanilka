@@ -6,8 +6,8 @@ var number = text.split`@`[1]
 }else if(!isNaN(text)) {
 var number = text
 }
-if(!text && !m.quoted) return conn.reply(m.chat, `✳️ Uso del comamdo \n *${usedPrefix + command}* @tag  (o responda un mensaje)`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `✳️ Numero incorrecto`, m)
+if(!text && !m.quoted) return conn.reply(m.chat, `✳️ Использование комамдо \n *${usedPrefix + command}* @tag  (или ответьте на сообщение)`, m)
+if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `✳️Неправильный номер`, m)
 try {
 if(text) {
 var user = number + '@s.whatsapp.net'
@@ -19,11 +19,11 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-m.reply(`✅ Usuario promovido`)
+m.reply(`✅ Продвигаемый пользователь`)
 }}
-handler.help = ['promote']
+handler.help = ['датьадмина']
 handler.tags = ['group']
-handler.command = ['promote', 'promover'] 
+handler.command = ['датьадмина', 'promover'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true

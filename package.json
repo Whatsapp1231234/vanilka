@@ -1,5 +1,5 @@
 { 
-    "name": "vanilka",
+    "name": "꧁ঔৣ♚☠︎✞BOTPRO✞☠︎♚ঔৣ꧂2",
     "version": "2.2.2",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Whatsapp1231234/vanilka",
+    "homepage": "https://github.com/Whatsapp1231234/sere1",
     "author": {
-        "name": "vanilka"
+        "name": "sere1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Whatsapp1231234/vanilka"
+        "url": "git+https://github.com/Whatsapp1231234/sere1"
     },
     "bugs": {
-        "url": "https://github.com/Whatsapp1231234/vanilka"
+        "url": "https://github.com/Whatsapp1231234/sere1/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
