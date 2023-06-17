@@ -3,13 +3,13 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['79531126750', '─•••꧔ꦿꦼꦿ꧇Серёга꧇꧔ꦿꦼꦿ•••─', true],
-  ['79531126750'], 
-  ['79531126750'] 
+  ['77072763560', 'Лёлька ', true],
+  ['77072763560'], 
+  ['77072763560'] 
 ] //Numeros de owner 
 
-global.mods = ['79531126750'] 
-global.prems = ['79531126750']
+global.mods = ['77072763560'] 
+global.prems = ['77072763560']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -25,7 +25,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
+global.packname = 'Vanilka' 
 global.author = '@fg98' 
 global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
 global.dygp = 'https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU'
