@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Whatsapp1231234/sere1",
+    "homepage": "https://github.com/Whatsapp1231234/vanilka",
     "author": {
-        "name": "sere1"
+        "name": "vanilka"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Whatsapp1231234/sere1"
+        "url": "git+https://github.com/Whatsapp1231234/vanilka"
     },
     "bugs": {
-        "url": "https://github.com/Whatsapp1231234/sere1/issues"
+        "url": "https://github.com/Whatsapp1231234/vanilka"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
