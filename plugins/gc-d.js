@@ -6,9 +6,6 @@ handler.command = /^(менюю)$/i
 export default handler
 
 global.destraba = `
-let pp = './src/fg_logo.jpg'
-     
-conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
 
 
 ╭──❉〔⳹ ❋ཻུ۪۪⸙ *МЕНЮ* ⳹ ❋ཻུ۪۪ 〕
@@ -64,3 +61,6 @@ conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
 
 *❏ 「 имя бота」:*
 `
+let pp = './src/fg_logo.jpg'
+     
+    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
