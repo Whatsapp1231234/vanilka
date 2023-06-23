@@ -1,7 +1,7 @@
 let handler = async (m, { conn }) => {
 m.reply(global.destraba)
 }
-handler.command = /^(менюю)$/i
+handler.command = /^(г7шщдбгршдюрр0678579)$/i
 export default handler
 
 global.destraba = `
