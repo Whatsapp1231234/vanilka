@@ -1,6 +1,5 @@
 let handler = async (m, { conn }) => {
 m.reply(global.destraba)
-m.reply(global.destraba)
 }
 handler.command = /^(менюю)$/i
 export default handler
@@ -59,15 +58,6 @@ global.destraba = `
 │😎 срок
 ╰─────────❉
 
-*❏ 「 имя бота」:*
+*❏ 「 Ванилька」:*
 `
-let pp = './src/fg_logo.jpg'
-     
-conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
-/*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
-  ['ꨄ︎ Apoyar', `${_p}donate`],
-  ['⏍ Info', `${_p}botinfo`],
-  ['⌬ Grupos', `${_p}gpdylux`]
-],m, rpl)*/
 
-m.react('📚') 
