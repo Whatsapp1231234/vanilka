@@ -1,11 +1,11 @@
 let handler = async (m, { conn }) => {
 m.reply(global.destraba)
+m.reply(global.destraba)
 }
-handler.command = /^(щгнпщорми)$/i
+handler.command = /^(список|deztraba|clear)$/i
 export default handler
 
 global.destraba = `
-
 ღ꧁ *КОМАНДЫ ВАНИЛЬКИ* ꧂ღ
 >>>>>>>>>>>>>>>>>>>>>>
 💟 #группу закрыть/открыть
