@@ -2,26 +2,16 @@
 let handler = async (m, { conn }) => {
 
 m.reply(`
-≡  *DyLuxᴮᴼᵀ ┃ SUPPORT*
+≡  *Моя создательца ᴮᴼᵀ*
 
-
-
-◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-▢ Todos los Grupos
- https://instabio.cc/fg98ff
-
-▢ *Telegram*
-• https://t.me/fgawgp
-
- ▢ *PayPal*
-• https://paypal.me/fg98f
-
-▢ *YouTube*
-• https://www.youtube.com/fg98f`)
+▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬
+http://wa.me/+77072763560
+▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬
+`)
 
 }
-handler.help = ['support']
+handler.help = ['создатель']
 handler.tags = ['main']
-handler.command = ['grupos', 'groupdylux', 'dxgp', 'dygp', 'gpdylux', 'support'] 
+handler.command = ['создатель', 'groupdylux', 'dxgp', 'dygp', 'gpdylux', 'support'] 
 
 export default handler
