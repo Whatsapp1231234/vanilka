@@ -72,7 +72,7 @@ let infobt = `
 ▢ WhatsApp : wa.me/
   *ANDREA*
 ▢ Instagram : https://
-▢ WhatsApp : wa.me/573125484672
+▢ WhatsApp : wa.me/+77072763560
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
