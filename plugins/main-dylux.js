@@ -10,8 +10,8 @@ http://wa.me/+77072763560
 `)
 
 }
-handler.help = ['создатель']
+handler.help = ['веновепровено']
 handler.tags = ['main']
-handler.command = ['создатель', 'groupdylux', 'dxgp', 'dygp', 'gpdylux', 'support'] 
+handler.command = ['ваптрвпровеон', 'groupdylux', 'dxgp', 'dygp', 'gpdylux', 'support'] 
 
 export default handler
