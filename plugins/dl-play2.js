@@ -23,17 +23,17 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   let play = `
 	≡ *МУЗЫКА*
   ┌──────────────
-  ▢ 📌 *Título* : ${vid.title}
-  ▢ 📆 *Publicado:* ${vid.ago}
-  ▢ ⌚ *Duración:* ${vid.timestamp}
-  ▢ 👀 *Vistas:* ${vid.views}
+  ▢ 📌 *Заголовок* : ${vid.title}
+  ▢ 📆 *Печатный:* ${vid.ago}
+  ▢ ⌚ *Продолжительность:* ${vid.timestamp}
+  ▢ 👀 *Вид:* ${vid.views}
   └──────────────
 
 _Окружающая среда..._`
 conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null, rpl)
 
-if (size.split('MB')[0] >= limit) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${q}\n\n▢ _El archivo supera el límite de descarga_ *+${limit} MB*`) 
-if (size.includes('GB')) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${q}\n\n▢ _El archivo supera el límite de descarga_ *+${limit} MB*`)   
+if (size.split('MB')[0] >= limit) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${q}\n\n▢ _Файл превышает лимит загрузки_ *+${limit} MB*`) 
+if (size.includes('GB')) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${q}\n\n▢ _Файл превышает лимит загрузки_ *+${limit} MB*`)   
 	  conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
  ≡  *FG YTDL*
   
