@@ -18,7 +18,7 @@ text || q.text, conn.user.jid, { mentions: users }
 )
 await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
 }
-handler.help = ['неспать (вызывает через @ не видно в группе']
+handler.help = ['вызов (вызывает через @ не видно в группе']
 handler.tags = ['group']
 handler.command = ['hidetag', 'неспать'] 
 handler.group = true
