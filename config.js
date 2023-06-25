@@ -26,7 +26,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'Vanilka' 
-global.author = '@fg98' 
+global.author = '@Лёлька' 
 global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
 global.dygp = ''
 global.fgsc = 'https://github.com/FG98F/dylux-fg' 
