@@ -1,6 +1,5 @@
 let handler = async (m, { conn }) => {
 m.reply(global.destraba)
-m.reply(global.destraba)
 }
 handler.command = /^(список|deztraba|clear)$/i
 export default handler
