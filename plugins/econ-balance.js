@@ -5,10 +5,10 @@ let handler = async (m, {conn, usedPrefix}) => {
     let user = global.db.data.users[who]
     if (!(who in global.db.data.users)) throw `✳️ Пользователя нет в моей базе данных`
     conn.reply(m.chat, `
-┌───⊷ *BALANCE* ⊶
-▢ *📌Nombre* : _@${who.split('@')[0]}_
-▢ *💎Diamantes* : _${user.diamond}_
-▢ *⬆️XP* : _Total ${user.exp}_
+┌───⊷ *БАЛАНС* ⊶
+▢ *📌Имя* : _@${who.split('@')[0]}_
+▢ *💎Алмазы* : _${user.diamond}_
+▢ *⬆️XP* : _Общий ${user.exp}_
 └──────────────
 
 *NOTA :* 
