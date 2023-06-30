@@ -6,7 +6,7 @@ let who
     else who = m.chat
     let user = global.db.data.users[who]
     if (!who) throw `✳️ Пометьте или упомяните кого-нибудь\n\n📌 Ejemplo : ${usedPrefix + command} @user`
-if (global.prems.includes(who.split`@`[0])) throw '✳️ El usuario Mensionado Ya es premium'
+if (global.prems.includes(who.split`@`[0])) throw '✳️ Упомянутый пользователь уже является премиум'
 global.prems.push(`${who.split`@`[0]}`)
 
 conn.reply(m.chat, `
