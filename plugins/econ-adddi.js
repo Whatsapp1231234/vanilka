@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
     else who = m.chat
     if (!who) throw '✳️ Пометти пользователя'
     let txt = text.replace('@' + who.split`@`[0], '').trim()
-    if (!txt) throw '✳️ Введите количество* Бриллиантов*, которые вы хотите добавить'
+    if (!txt) throw '✳️ Введите количество* Алмазов*, которые вы хотите добавить'
     if (isNaN(txt)) throw '🔢 только цифры'
     let dmt = parseInt(txt)
     let diamond = dmt
@@ -22,9 +22,9 @@ let handler = async (m, { conn, text }) => {
    conn.fakeReply(m.chat, `▢ Получил \n\n *+${dmt}* Алмазы`, who, m.text)
 }
 
-handler.help = ['бриллиант <@user>']
+handler.help = ['алмазы <@user>']
 handler.tags = ['econ']
-handler.command = ['бриллиант'] 
+handler.command = ['алмазы'] 
 handler.rowner = true
 
 export default handler

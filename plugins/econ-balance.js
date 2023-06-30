@@ -12,7 +12,7 @@ let handler = async (m, {conn, usedPrefix}) => {
 └──────────────
 
 *NOTA :* 
-Вы можете купить 💎 бриллианты, используя команды
+Вы можете купить 💎 алмазы, используя команды
 ❏ *${usedPrefix}buy <cantidad>*
 ❏ *${usedPrefix}buyall*`, m, { mentions: [who] })
 }
