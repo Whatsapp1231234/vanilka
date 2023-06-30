@@ -11,7 +11,7 @@ let handler = async (m, {conn, isPrems }) => {
   m.reply(`
 🎁 *ЕЖЕДНЕВНОЕ ВОЗНАГРАЖДЕНИЕ*
 
-▢ *Has recibido:*
+▢ *Вы получили:*
 🆙 *XP* : +${isPrems ? prem : free}`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
 }
