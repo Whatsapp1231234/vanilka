@@ -11,8 +11,7 @@ let handler = async (m, {conn, usedPrefix}) => {
 ▢ *⬆️XP* : _Общий ${user.exp}_
 └──────────────
 
-❏ *${usedPrefix}*
-❏ *${usedPrefix}`, m, { mentions: [who] })
+`)
 }
 handler.help = ['баланс']
 handler.tags = ['econ']
