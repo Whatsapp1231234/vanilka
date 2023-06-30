@@ -11,10 +11,8 @@ let handler = async (m, {conn, usedPrefix}) => {
 ▢ *⬆️XP* : _Общий ${user.exp}_
 └──────────────
 
-*NOTA :* 
-Вы можете купить 💎 алмазы, используя команды
-❏ *${usedPrefix}buy <cantidad>*
-❏ *${usedPrefix}buyall*`, m, { mentions: [who] })
+❏ *${usedPrefix}*
+❏ *${usedPrefix}`, m, { mentions: [who] })
 }
 handler.help = ['баланс']
 handler.tags = ['econ']
