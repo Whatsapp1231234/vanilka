@@ -21,7 +21,7 @@ const jid = user.attrs.jid
 const content = getBinaryNodeChild(user, 'add_request')
 const invite_code = content.attrs.code
 const invite_code_exp = content.attrs.expiration
-let teks = `*[❗𝐈𝐍𝐅𝐎❗]ОСТАВТЕ МЕНЯ В ПОКОЕ @${jid.split('@')[0]},`
+let teks = `*[❗ИНФО❗] ОСТАВТЕ МЕНЯ В ПОКОЕ @${jid.split('@')[0]},`
 m.reply(teks, null, { mentions: conn.parseMention(teks)})
 let captionn = `Эй!! Здравствуйте, я представляюсь, я Ванилька, и я бот для WhatsApp, человек из группы, я использую команду, чтобы добавить вас в группу, но я не смог добавить вас, поэтому я отправляю вам приглашение присоединиться, мы ждем вас!!`    
 var messaa = await prepareWAMessageMedia({ image: jpegThumbnail }, { upload: conn.waUploadToServer })
