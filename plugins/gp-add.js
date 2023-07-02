@@ -43,9 +43,9 @@ try {
 } catch (e) {
 throw m.reply('*[❗INFO❗] НЕ УДАЛОСЬ ДОБАВИТЬ ВВЕДЕННЫЙ МНОЙ НОМЕР, ЭТО МОЖЕТ ПРОИЗОЙТИ ИЗ-ЗА ТОГО, ЧТО НОМЕР НЕВЕРНЫЙ, ЧЕЛОВЕК НЕДАВНО ПОКИНУЛ ГРУППУ ИЛИ ЧЕЛОВЕК НАСТРОИЛ КОНФИДЕНЦИАЛЬНОСТЬ СВОИХ ГРУПП, МЫ СОВЕТУЕМ ВАМ ОТПРАВИТЬ ПРИГЛАШЕНИЕ ВРУЧНУЮ!!*')}
 }
-handler.help = ['add', '+'].map(v => v + ' número')
+handler.help = ['add', 'добавить', '+'].map(v => v + ' número')
 handler.tags = ['group']
-handler.command = /^(добавить|\+)$/i
+handler.command =  /^(добавить|agregar|añadir|\+)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
