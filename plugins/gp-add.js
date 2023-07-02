@@ -45,11 +45,10 @@ throw m.reply('*[❗INFO❗] НЕ УДАЛОСЬ ДОБАВИТЬ ВВЕДЕНН
 }
 handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['group']
-handler.command =  /^(добавить|agregar|añadir|\+)$/i
+handler.command = /^(добавить|agregar|añadir|\+)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
 handler.fail = null
 export default handler
-
 
