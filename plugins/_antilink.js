@@ -17,7 +17,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         await conn.reply(m.chat, `*≡ Enlace Detectado*
             
 Ссылки в группе запрщенны  
-Досвидание *@${m.sender.split('@')[0]}*  Вы удаляетесь с группы! ${isBotAdmin ? '' : '\n\nБыл бы я админом, быстро бы удалил тебя отсюда! :"v'}`, null, { mentions: [m.sender] } )
+Досвидание *@${m.sender.split('@')[0]}*  Вы удаляетесь с группы! курва ты постепенная ссылки надамала она кидать  ${isBotAdmin ? '' : '\n\nБыл бы я админом, быстро бы удалил тебя отсюда! :"v'}`, null, { mentions: [m.sender] } )
         if (isBotAdmin && chat.antiLink) {
         	await conn.sendMessage(m.chat, { delete: m.key })
             await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
