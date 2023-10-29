@@ -32,7 +32,7 @@ throw '*[❗𝐈𝐍𝐅𝐎❗] Я НЕ МОГУ ДОБАВИТЬ ЭТОГО Ч
 }}
 handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['group']
-handler.command = /^(add|добавить|agregar|añadir|\+)$/i
+handler.command = /^(add|\+)$/i
 handler.admin = handler.group = handler.botAdmin = true
 export default handler
 
