@@ -14,7 +14,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
             const linkThisGroup = `https://t.me/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0
         }
-        await conn.reply(m.chat, `*≡ Enlace Detectado*
+        await conn.reply(m.chat, `*≡ пипец тебе*
             
 Ссылки в группе запрщенны  
 Досвидание *@${m.sender.split('@')[0]}*  Вы удаляетесь с группы! ${isBotAdmin ? '' : '\n\nБыл бы я админом, быстро бы удалил тебя отсюда! :"v'}`, null, { mentions: [m.sender] } )
