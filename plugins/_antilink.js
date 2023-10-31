@@ -11,10 +11,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
 
     if (chat.antiLink && isGroupLink && !isAdmin) {
         if (isBotAdmin) {
-            const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-            const linkThisGroup2 = `https://t.me/`
+            const linkThisGroup = `https://t.me/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0
-            if (m.text.includes(linkThisGroup2)) return !0
         }
         await conn.reply(m.chat, `*≡ Enlace Detectado*
             
