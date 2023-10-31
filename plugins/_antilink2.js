@@ -20,7 +20,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       if (m.text.includes(linkThisGroup2)) return !0;
       if (m.text.includes(linkThisGroup3)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `*「 АНТИССЫЛКА 」*\n*ДО ВСТРЕЧИ 👋 ${user} Покедова нарушитель...!!*`, mentions: [m.sender]}, {quoted: m});
+    await this.sendMessage(m.chat, {text: `*「 ВКЛЮЧЕНА АНТИССЫЛКА 」*\n*ДО ВСТРЕЧИ 👋 ${user} Покедова нарушитель...!!*`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('*[❗ИНФО❗] БОТ ДОЛЖЕН БЫТЬ АДМИНОМ*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
